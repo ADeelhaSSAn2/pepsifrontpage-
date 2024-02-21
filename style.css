@@ -1,0 +1,220 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #000;
+    overflow-x: hidden;
+    font-family: Sofia Pro Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+@font-face {
+    font-family: Sofia Pro;
+    src: url(fonts/sofiapro-light.otf);
+    
+}
+
+.navbar {
+    background-color:#0025ff;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.custom-toggler .navbar-toggler {
+    border-color: #fff;
+    position: fixed;
+}
+
+.nav-item {
+    margin-right: 1-5rem;
+    font-family: Sofia Pro;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 900px;
+
+}
+
+.nav-item>a {
+    color: #fff !important;
+}
+a:hover{
+    
+    background-color: #055dff;
+    border-radius: 30px;
+    color: #03d6f1;
+    animation-name: tada;
+    animation-delay: 0.4s;
+}
+a{
+    margin-left: 20px;
+}
+i{
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+.navbar-brand {
+    margin-right: 50px;
+}
+
+.pepsi-btn {
+    display: inline-block;
+    font-size: 20px;
+    padding: 3px 20px;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Sofia Pro;
+    cursor: pointer;
+    font-weight: bold;
+}
+.pepsi-btn:hover {
+    background-color: white;
+    color: #0065c3;
+    animation-name: tada;
+    animation-delay: 0.4s;
+}
+
+.logo:hover {
+    animation-name: rotateIn;
+    animation-duration: 0.2s;
+}
+.hero__video-container{
+    background-color:black;
+}
+.hero__video-container>video{
+    width: 100%;
+    height: 100%;
+}
+.pepsi_125_header{
+    background-color:black;
+    color: white;
+    padding: 48px;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.pepsi2{
+    background-color: black;
+    text-align: center;
+}
+
+.container1 {
+    background-image: url(pepsipic/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height:650px;
+    background-size: cover;
+    position: relative;
+}
+.head-sec-one>img {
+    position: absolute;
+    width:620px;
+    top:150px;
+    left:30px;
+}
+.head-sec-two{
+    margin-top: 13%;
+    margin-left: 15%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.unlock-free-btn {
+    font-size: 14px;
+    width: 150px;
+    padding: 5px 0px;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Sofia Pro;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.unlock-free-btn:hover {
+    background-color: white;
+    color: #055dff;
+    animation-name: tada;
+    animation-delay: 0.4s;
+}
+
+.content-paragraph {
+    font-family: Sofia Pro;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 13px;
+}
+.heading-secnd-last>h1 {
+    background-color:#000 ;
+    color: #0025ff;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container8 {
+    background-color: #0025ff;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.animated-images>a>img {
+    width: 250px;
+    border-radius: -10px;
+}
+
+.animated-images :hover {
+    animation-name: tada;
+    animation-delay: 0.3s;
+    border-radius: 20px solid black ;
+}
+.last-section {
+    background-color: #0025ff;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-brand2>img {
+    width: 80px;
+}
+
+.last-sub-section {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 10px;
+}
+.fa-brands {
+    color: #faf9f9;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.fa-brands:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width:992px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+}
